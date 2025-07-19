@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CB Games - Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="CB Games Logo.png" alt="CB Games Logo" class="logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="PaymentForm.html" class="active">Shop</a>
+      <a href="Receipt.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="selected-game" class="centered-game">
+      <!-- Selected game will be rendered here -->
+    </section>
+
+    <form id="purchaseForm" class="purchase-form">
+      <h2>Purchase Game</h2>
+      <label>Name: <input type="text" name="name" required /></label>
+      <label>Email: <input type="email" name="email" required /></label>
+      <label>Address: <input type="text" name="address" required /></label>
+      <label>Phone: <input type="tel" name="phone" required /></label>
+      <button type="submit" class="button">Complete Purchase</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CB Games. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

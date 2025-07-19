@@ -1,5 +1,41 @@
-<!--Work in progress-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CB Games - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="CB Games Logo.png" alt="CB Games Logo" class="logo" />
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="PaymentForm.html">Shop</a>
+      <a href="Receipt.html">Checkout</a>
+    </nav>
+  </header>
 
-<a href="site-plan.html" target="_blank">Go to site-plan (html)</a>
-<a href="site-plan.css" target="_blank">Go to site-plan (css)</a>
+  <main>
+    <section class="hero">
+      <h1>Welcome to CB Games</h1>
+      <p>Your destination for top-rated indie games</p>
+    </section>
 
+    <section class="search-section">
+      <input type="text" id="searchBar" placeholder="Search games by title or genre..." />
+    </section>
+
+    <section class="recommended-games">
+      <h2>Recommended Games:</h2>
+      <div id="recommended-games-container" class="game-horizontal"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CB Games. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
